@@ -3,7 +3,7 @@ groups:
   publish:
     generators:
       - name: "fernapi/fern-typescript-node-sdk"
-        version: "0.7.1"
+        version: "0.39.1"
         output:
           package-name: "@vocode/vocode-api"
           token: "${NPM_TOKEN}"
@@ -13,7 +13,7 @@ groups:
         github:
           repository: "vocodedev/vocode-api-node"
       - name: "fernapi/fern-python-sdk"
-        version: "0.7.5"
+        version: "3.10.2"
         output:
           package-name: "vocode-api"
           token: "${PYPI_TOKEN}"
