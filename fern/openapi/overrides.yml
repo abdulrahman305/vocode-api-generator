@@ -1,0 +1,4 @@
+components: 
+  schemas: 
+    AddToSteeringPoolRequest: 
+      x-fern-type-name: AddToSteeringPoolBody
