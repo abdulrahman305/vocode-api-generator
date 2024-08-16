@@ -1,4 +1,9 @@
----
+api: 
+  path: ./openapi/openapi.json
+  overrides: ./openapi/overrides.yml
+  settings: 
+    use-title: false
+    unions: v1
 groups:
   publish:
     generators:
@@ -13,7 +18,7 @@ groups:
         github:
           repository: "vocodedev/vocode-api-node"
       - name: "fernapi/fern-python-sdk"
-        version: "3.10.2"
+        version: "3.10.5"
         output:
           package-name: "vocode-api"
           token: "${PYPI_TOKEN}"
